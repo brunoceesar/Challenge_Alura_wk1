@@ -2,6 +2,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+main {
+    background-color: #e5e5e5;
+    padding-bottom: 64px;
+}
+
 /*Inicio header*/
 
 header {
@@ -78,7 +83,7 @@ header {
 }
 
 .bannerImagem {
-    width: 100vw;
+    min-width: 100vw;
     position: absolute;
 }
 
@@ -188,7 +193,6 @@ header {
 .infoPrincipalFooter {
     background: #eaf2fd;
     padding-top: 64px;
-    margin-top: 64px;
     width: 100%;
 }
 
@@ -779,3 +783,59 @@ form .inserirNome, .inserirMensagem {
         top: 65px;
     }
 }
+
+/* Pagina de Login */
+
+.containerLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloLogin {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 91px;
+    margin-bottom: 25px;
+}
+
+.campoLoginEmail, .campoLoginSenha {
+    font-family: 'Raleway';
+    margin-bottom: 25px;
+    width: calculate(423px - 24px);
+    height: 63px;
+    border-radius: 4px;
+    border-top: none;
+    border-left: none;
+    border-bottom: solid 2px #C8c8c8;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.botaoEnviar {
+    width: 423px;
+    height: 62px;
+    border: none;
+    background: #2A7AE4;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoEnviar:hover {
+    background: white;
+    color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+    transition: .2s;
+}
+
+/* Pagina de Login FIM */

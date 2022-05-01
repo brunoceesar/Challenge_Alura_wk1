@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Alura Geek</title>
+            <link href="./reset.css" rel="stylesheet">
+            <link href="assets/css/style.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="cabecalhoPrincipal">
+
+            <div class="container">
+                <a href="index.html">
+                    <img class="cabecalhoLogo" src="assets/img/Logo.png" alt="Logo AluraGeek">
+                </a>
+                <form class="formularioDeBusca">
+                    <label for="submit" class="campo_busca_lupa"><img src="assets/img/lens.png" alt="Imagem de Lupa"></label>
+                    <input type="text" id="campo_busca" placeholder="O que deseja encontrar?">
+                </form>
+                <!--<button class="campo_busca_lupa" type="submit" onclick=""><img src="./img/lens.png" alt=""></button>-->
+                <a href="login.html">
+                    <button class="campoLogin" type="submit" onclick="">Login</button>
+                </a>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="containerLogin">
+                <div class="boxesLogin">
+                    <h1 class="tituloLogin">Iniciar Sessão</h1>
+                    <form class="formLogin">
+                        <label for="email"></label>
+                        <input class="campoLoginEmail" type="email" placeholder="Escreva seu email" name="email">
+                        <label for="password"></label>
+                        <input class="campoLoginSenha" type="password" placeholder="Escreva sua senha" name="password">                     
+                    </form>
+                    <button class="botaoEnviar">Enviar</button>
+                </div>
+            </div>
+            
+        </main>
+
+        <section class="infoPrincipalFooter">
+            <div class="informacoesEFormulario">
+
+                <div class="logoRodape">
+                    <a href="index.html">
+                        <img src="assets/img/Logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="listaRodape">
+                    <ul>
+                        <a href="" class="linksCabecalho"><li>Quem somos nós</li></a>
+                        <a href="" class="linksCabecalho"><li>Política de privacidade</li></a>
+                        <a href="" class="linksCabecalho"><li>Programa fidelidade</li></a>
+                        <a href="" class="linksCabecalho"><li>Nossas lojas</li></a>
+                        <a href="" class="linksCabecalho"><li>Quero ser franqueado</li></a>
+                        <a href="" class="linksCabecalho"><li>Anuncie aqui</li></a>
+                    </ul>
+                </div>
+
+                <div class="faleConoscoRodape">
+                    <h5>Fale conosco</h5>
+                    <form>
+                        <label for="name" class="nomeLabel">Nome</label>
+                        <input class="inserirNome" type="text">
+                        <textarea class="inserirMensagem" placeholder="Escreva sua mensagem"></textarea>
+                    </form>
+                    <button class="btEnviarMsg">Enviar Mensagem</button>
+                </div>                
+            </div>
+        </section>
+
+        <footer>
+            <div class="creditos">
+                <p>Desenvolvido por Bruno Amaral</p>
+                <p>2022</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
