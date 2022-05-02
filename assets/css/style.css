@@ -554,7 +554,6 @@ form .inserirNome, .inserirMensagem {
 
     .formularioDeBusca {
         margin: 0;
-        order: 3;
     }
 
     #campo_busca {
@@ -580,8 +579,6 @@ form .inserirNome, .inserirMensagem {
     .campoLogin {
         height: 50px;
         width: 160px;
-        order: 3;
-        flex-grow: 2;
     }
 
     /*Banner Principal Dez Promocional*/
@@ -815,6 +812,7 @@ form .inserirNome, .inserirMensagem {
     border-radius: 4px;
     border-top: none;
     border-left: none;
+    border-right: none;
     border-bottom: solid 2px #C8c8c8;
     padding-left: 12px;
     padding-right: 12px;
@@ -839,3 +837,69 @@ form .inserirNome, .inserirMensagem {
 }
 
 /* Pagina de Login FIM */
+
+/* Pagina de Produtos ADM */
+
+.tituloTodosProdutos {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.botaoAdicionarProduto {
+    background: #2A7AE4;
+    width: 164px;
+    height: 51px;
+    text-align: center;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #2A7AE4;
+}
+
+.botaoAdicionarProduto:hover {
+    background: #e5e5e5;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    transition: 0.2s;
+}
+
+.listaTodosProdutos {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.imagensProdutos {
+    width: 250px;
+}
+
+.codigoProduto {
+    font-family: 'Raleway';
+    color: #797979;
+    font-size: 17px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 810px) {
+
+    .listaprodutos {
+        width: auto;
+    }
+
+    .imagensProdutos {
+        width: 176px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .imagensProdutos {
+        width: 176px;
+    }
+
+}
+
+/* Pagina de Produtos ADM FIM */
