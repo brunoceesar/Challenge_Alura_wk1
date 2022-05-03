@@ -804,6 +804,13 @@ form .inserirNome, .inserirMensagem {
     margin-bottom: 25px;
 }
 
+#spanLogin {
+    color: red;
+    font-family: 'Raleway';
+    line-height: 40px;
+    font-weight: 500;
+}
+
 .campoLoginEmail, .campoLoginSenha {
     font-family: 'Raleway';
     margin-bottom: 25px;
