@@ -1,0 +1,70 @@
+.tituloAddProduto {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 64px;
+    margin-bottom: 16px;
+}
+
+.containerAddProduto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerBotoes {
+    display: flex;
+    align-items: center;
+}
+
+
+.botaoAddProduto {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 152px;
+    padding: 32px;
+    border: 1px dashed #949494;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: rgb(245, 245, 245);
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.imgVector {
+    pointer-events: none;
+    width: 32px;
+    margin-bottom: 16px;
+}
+
+.procurarAddProduto {
+    width: 245px;
+    height: 55px;
+    background: none;
+    border: 1px solid #2A7AE4;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #2A7AE4;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.formCadastro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.nomeProduto, .valorDoProduto, .descricaoDoProduto {
+    width: 559px;
+}
+
+.nomeProduto, .valorDoProduto {
+    height: 56px;
+}

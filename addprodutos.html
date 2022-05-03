@@ -8,6 +8,7 @@
             <title>Alura Geek</title>
             <link href="./reset.css" rel="stylesheet">
             <link href="assets/css/style.css" rel="stylesheet">
+            <link href="assets/css/admstyle.css" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     </head>
 
@@ -32,11 +33,24 @@
 
         <main>
 
-            <div>
+
+            <div class="containerAddProduto">
+                <h1 class="tituloAddProduto">Adicionar novo produto</h1>
+                <div class="containerBotoes">                    
+                    <button class="botaoAddProduto"> <img class="imgVector" src="/assets/img/imgvector.png" alt=""> Arraste para adicionar uma imagem para o produto</button>
+                    <p>Ou</p>
+                    <button class="procurarAddProduto">Procure no seu computador</button>           
+                </div>
+                <form class="formCadastro">
+                    <label for="nomeProduto">Nome do produto</label>
+                    <input class="nomeProduto" type="text" name="nomeProduto">
+                    <label for="valorDoProduto">Valor do produto</label>
+                    <input class="valorDoProduto" type="number" min="0.00" max="10000.00" step="0.01" placeholder="R$" name="valorDoProduto">
+                    <label for="descricaoDoProduto"></label>
+                    <textarea class="descricaoDoProduto" name="descricaoDoProduto" placeholder="Descrição do produto"></textarea>
+                </form>
 
             </div>
-
-
         </main>
 
         <section class="infoPrincipalFooter">
